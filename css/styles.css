@@ -1,0 +1,163 @@
+html {
+    color: rgb(67, 91, 101);
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1,
+h3 {
+    color: rgb(47, 44, 47);
+    font-family: 'arial';
+    font-size: 1.5em;
+    text-align: center;
+}
+
+body {
+    background-image: linear-gradient(rgba(245, 231, 238, 0.7), rgba(245, 231, 238, 0.7)), url("../images/dose-juice-sTPy-oeA3h0-unsplash.jpg");
+
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+
+#buddha {
+    text-align: left;
+    font-size: 1.5em;
+    color: rgb(102, 159, 119);
+    height: auto;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#question {
+    color: rgb(102, 159, 119);
+    font-size: 1.3em;
+    font-family: sans-serif;
+    text-align: center;
+    border: 5px solid rgb(102, 159, 119);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.steps,
+body main ul {
+    margin: 0px 30px 0px 30px;
+    font-size: 1em;
+    color: rgb(67, 91, 101);
+    font-family: sans-serif;
+    text-align: left;
+
+}
+
+.text,
+a,
+p,
+footer {
+    color: rgb(67, 91, 101);
+    font-family: sans-serif;
+    width: 550px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.moreinfo,
+body,
+header nav {
+    margin: 0px 50px 2px 50px;
+}
+
+.in {
+    font-size: 1.5em;
+    font-family: serif;
+    color: rgb(102, 159, 119);
+}
+
+
+a:hover {
+    color: black;
+}
+
+a {
+    transition: background-color .3s, color .3s;
+    text-decoration: none;
+}
+
+
+.info {
+    font-size: 1em;
+    font-family: sans-serif;
+    color: rgb(67, 91, 101);
+    margin: 10px;
+}
+
+
+.nutritionfact {
+    margin: 10px 10px 10px 550px;
+}
+
+@media screen and (max-width: 50rem) {
+
+    header,
+    main,
+    footer {
+        flex-direction: column;
+    }
+}
+
+
+main, .container, footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.indexcontain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    
+    
+}
+.container div {
+    margin: 15px;
+}
+
+#item1 {
+    display: flex;
+}
+
+#item1text {
+    display: flex; 
+}
+
+#item2 {
+    display: flex;
+}
+
+#item2text {
+    display: flex; 
+}
+
+#item3 {
+    display: flex;
+}
+
+#item3text {
+    display: flex; 
+}
+
+#item4 {
+    display: flex;
+}
+
+#item1text {
+    display: flex; 
+}
+
+header nav li {
+    list-style-type: none; 
+}
