@@ -51,6 +51,27 @@ body main ul {
 
 }
 
+form p {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+form label {
+    flex-basis: 33%;
+}
+
+form input,
+textarea,
+select {
+    flex: 1;
+    margin: 0 1em;
+    border-radius: 5px;
+}
+
+form select {
+    text-align: center;
+}
+
 .text,
 a,
 p,
@@ -102,13 +123,22 @@ a {
 
     header,
     main,
-    footer {
+    footer,
+    form p {
         flex-direction: column;
+    }
+    form input, textarea {
+        margin: 2px 0;
+    }
+    form select {
+        margin: 0;
     }
 }
 
 
-main, .container, footer {
+main,
+.container,
+footer {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -118,10 +148,11 @@ main, .container, footer {
 .indexcontain {
     display: flex;
     flex-direction: column;
-    justify-content: center; 
-    
-    
+    justify-content: center;
+
+
 }
+
 .container div {
     margin: 15px;
 }
@@ -131,7 +162,7 @@ main, .container, footer {
 }
 
 #item1text {
-    display: flex; 
+    display: flex;
 }
 
 #item2 {
@@ -139,7 +170,7 @@ main, .container, footer {
 }
 
 #item2text {
-    display: flex; 
+    display: flex;
 }
 
 #item3 {
@@ -147,7 +178,7 @@ main, .container, footer {
 }
 
 #item3text {
-    display: flex; 
+    display: flex;
 }
 
 #item4 {
@@ -155,9 +186,9 @@ main, .container, footer {
 }
 
 #item1text {
-    display: flex; 
+    display: flex;
 }
 
 header nav li {
-    list-style-type: none; 
+    list-style-type: none;
 }
